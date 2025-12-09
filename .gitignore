@@ -6,8 +6,11 @@ build/
 !**/src/test/**/build/
 
 
-###
+### Custome files
 .env
+NOTEBOOK.md
+
+
 ### STS ###
 .apt_generated
 .classpath
