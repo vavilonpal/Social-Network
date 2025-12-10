@@ -1,8 +1,8 @@
-package org.global.socialnetwork.entity.compositekey;
+package org.global.socialnetwork.entity;
 
 @Embeddable
 @Data @NoArgsConstructor @AllArgsConstructor
-public class PostReactionId implements java.io.Serializable {
+public class BookmarkId implements java.io.Serializable {
 
     @Column(name = "user_id")
     private Long userId;
@@ -10,4 +10,3 @@ public class PostReactionId implements java.io.Serializable {
     @Column(name = "post_id")
     private Long postId;
 }
-
